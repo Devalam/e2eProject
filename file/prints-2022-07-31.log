@@ -1,0 +1,37 @@
+31:07:2022 - 23:59:13.626 DEBUG internal.PlatformDependent0 [TestNG-tests-2] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+31:07:2022 - 23:59:13.629 DEBUG internal.PlatformDependent [TestNG-tests-2] - sun.misc.Unsafe: available
+31:07:2022 - 23:59:13.630 DEBUG internal.PlatformDependent [TestNG-tests-2] - maxDirectMemory: 1054867456 bytes (maybe)
+31:07:2022 - 23:59:13.631 DEBUG internal.PlatformDependent [TestNG-tests-2] - -Dio.netty.tmpdir: C:\Users\Naveen\AppData\Local\Temp (java.io.tmpdir)
+31:07:2022 - 23:59:13.631 DEBUG internal.PlatformDependent [TestNG-tests-2] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+31:07:2022 - 23:59:13.632 DEBUG internal.PlatformDependent [TestNG-tests-2] - Platform: Windows
+31:07:2022 - 23:59:13.633 DEBUG internal.PlatformDependent [TestNG-tests-2] - -Dio.netty.maxDirectMemory: -1 bytes
+31:07:2022 - 23:59:13.633 DEBUG internal.PlatformDependent [TestNG-tests-2] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+31:07:2022 - 23:59:13.635 DEBUG internal.CleanerJava9 [TestNG-tests-2] - java.nio.ByteBuffer.cleaner(): available
+31:07:2022 - 23:59:13.635 DEBUG internal.PlatformDependent [TestNG-tests-2] - -Dio.netty.noPreferDirect: false
+31:07:2022 - 23:59:13.649 DEBUG internal.PlatformDependent [TestNG-tests-2] - org.jctools-core.MpscChunkedArrayQueue: available
+31:07:2022 - 23:59:13.713 DEBUG internal.InternalThreadLocalMap [TestNG-tests-2] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+31:07:2022 - 23:59:13.714 DEBUG internal.InternalThreadLocalMap [TestNG-tests-2] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+31:07:2022 - 23:59:14.492 DEBUG ssl.JdkSslContext [TestNG-tests-2] - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+31:07:2022 - 23:59:14.493 DEBUG ssl.JdkSslContext [TestNG-tests-2] - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+31:07:2022 - 23:59:14.528 DEBUG channel.MultithreadEventLoopGroup [TestNG-tests-2] - -Dio.netty.eventLoopThreads: 8
+31:07:2022 - 23:59:14.537 DEBUG nio.NioEventLoop [TestNG-tests-2] - -Dio.netty.noKeySetOptimization: false
+31:07:2022 - 23:59:14.538 DEBUG nio.NioEventLoop [TestNG-tests-2] - -Dio.netty.selectorAutoRebuildThreshold: 512
+31:07:2022 - 23:59:14.585 TRACE nio.NioEventLoop [TestNG-tests-2] - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@2a309e5c
+31:07:2022 - 23:59:14.587 TRACE nio.NioEventLoop [TestNG-tests-2] - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6af4b44d
+31:07:2022 - 23:59:14.588 TRACE nio.NioEventLoop [TestNG-tests-2] - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@7cd1e5f2
+31:07:2022 - 23:59:14.590 TRACE nio.NioEventLoop [TestNG-tests-2] - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@153fe02a
+31:07:2022 - 23:59:14.592 TRACE nio.NioEventLoop [TestNG-tests-2] - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@37b547b8
+31:07:2022 - 23:59:14.593 TRACE nio.NioEventLoop [TestNG-tests-2] - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@78accbdf
+31:07:2022 - 23:59:14.595 TRACE nio.NioEventLoop [TestNG-tests-2] - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@b214f4d
+31:07:2022 - 23:59:14.596 TRACE nio.NioEventLoop [TestNG-tests-2] - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6175c0b3
+31:07:2022 - 23:59:14.626 DEBUG buffer.PooledByteBufAllocator [TestNG-tests-2] - -Dio.netty.allocator.numHeapArenas: 8
+31:07:2022 - 23:59:14.626 DEBUG buffer.PooledByteBufAllocator [TestNG-tests-2] - -Dio.netty.allocator.numDirectArenas: 8
+31:07:2022 - 23:59:14.627 DEBUG buffer.PooledByteBufAllocator [TestNG-tests-2] - -Dio.netty.allocator.pageSize: 8192
+31:07:2022 - 23:59:14.627 DEBUG buffer.PooledByteBufAllocator [TestNG-tests-2] - -Dio.netty.allocator.maxOrder: 9
+31:07:2022 - 23:59:14.627 DEBUG buffer.PooledByteBufAllocator [TestNG-tests-2] - -Dio.netty.allocator.chunkSize: 4194304
+31:07:2022 - 23:59:14.627 DEBUG buffer.PooledByteBufAllocator [TestNG-tests-2] - -Dio.netty.allocator.smallCacheSize: 256
+31:07:2022 - 23:59:14.627 DEBUG buffer.PooledByteBufAllocator [TestNG-tests-2] - -Dio.netty.allocator.normalCacheSize: 64
+31:07:2022 - 23:59:14.627 DEBUG buffer.PooledByteBufAllocator [TestNG-tests-2] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+31:07:2022 - 23:59:14.627 DEBUG buffer.PooledByteBufAllocator [TestNG-tests-2] - -Dio.netty.allocator.cacheTrimInterval: 8192
+31:07:2022 - 23:59:14.628 DEBUG buffer.PooledByteBufAllocator [TestNG-tests-2] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+31:07:2022 - 23:59:14.628 DEBUG buffer.PooledByteBufAllocator [TestNG-tests-2] - -Dio.netty.allocator.useCacheForAllThreads: false

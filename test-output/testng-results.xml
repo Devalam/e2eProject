@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-01T05:49:29 GMT-07:00" name="Suite" finished-at="2022-08-01T05:49:59 GMT-07:00" duration-ms="30762">
+    <groups>
+    </groups>
+    <test started-at="2022-08-01T05:49:29 GMT-07:00" name="ValidatetitleTest" finished-at="2022-08-01T05:49:56 GMT-07:00" duration-ms="27293">
+      <class name="Testing.SeleniumTesting.validatingTitle">
+        <test-method is-config="true" signature="intialization()[pri:0, instance:Testing.SeleniumTesting.validatingTitle@742d4e15]" started-at="2022-08-01T05:49:29 GMT-07:00" name="intialization" finished-at="2022-08-01T05:49:49 GMT-07:00" duration-ms="20089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method signature="logoValidation()[pri:0, instance:Testing.SeleniumTesting.validatingTitle@742d4e15]" started-at="2022-08-01T05:49:49 GMT-07:00" name="logoValidation" finished-at="2022-08-01T05:49:54 GMT-07:00" duration-ms="5628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoValidation -->
+        <test-method signature="titleValidation()[pri:0, instance:Testing.SeleniumTesting.validatingTitle@742d4e15]" started-at="2022-08-01T05:49:54 GMT-07:00" name="titleValidation" finished-at="2022-08-01T05:49:55 GMT-07:00" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testing.SeleniumTesting.validatingTitle@742d4e15]" started-at="2022-08-01T05:49:55 GMT-07:00" name="tearDown" finished-at="2022-08-01T05:49:56 GMT-07:00" duration-ms="1200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testing.SeleniumTesting.validatingTitle -->
+    </test> <!-- ValidatetitleTest -->
+    <test started-at="2022-08-01T05:49:29 GMT-07:00" name="validationTest" finished-at="2022-08-01T05:49:56 GMT-07:00" duration-ms="27294">
+      <class name="Testing.SeleniumTesting.AssertValidation">
+        <test-method is-config="true" signature="intialization()[pri:0, instance:Testing.SeleniumTesting.AssertValidation@2237bada]" started-at="2022-08-01T05:49:29 GMT-07:00" name="intialization" finished-at="2022-08-01T05:49:50 GMT-07:00" duration-ms="21828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Testing.SeleniumTesting.AssertValidation@2237bada]" started-at="2022-08-01T05:49:50 GMT-07:00" name="basePageNavigation" finished-at="2022-08-01T05:49:55 GMT-07:00" duration-ms="4300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testing.SeleniumTesting.AssertValidation@2237bada]" started-at="2022-08-01T05:49:55 GMT-07:00" name="tearDown" finished-at="2022-08-01T05:49:56 GMT-07:00" duration-ms="1134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testing.SeleniumTesting.AssertValidation -->
+    </test> <!-- validationTest -->
+    <test started-at="2022-08-01T05:49:29 GMT-07:00" name="HomepageTest" finished-at="2022-08-01T05:49:59 GMT-07:00" duration-ms="30762">
+      <class name="Testing.SeleniumTesting.HomePage">
+        <test-method is-config="true" signature="intialization()[pri:0, instance:Testing.SeleniumTesting.HomePage@17f460bb]" started-at="2022-08-01T05:49:29 GMT-07:00" name="intialization" finished-at="2022-08-01T05:49:36 GMT-07:00" duration-ms="7021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Testing.SeleniumTesting.HomePage@17f460bb]" started-at="2022-08-01T05:49:36 GMT-07:00" name="basePageNavigation" data-provider="getData" finished-at="2022-08-01T05:49:56 GMT-07:00" duration-ms="20530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Naveen kumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[naveen@gamil.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Testing.SeleniumTesting.HomePage@17f460bb]" started-at="2022-08-01T05:49:56 GMT-07:00" name="basePageNavigation" data-provider="getData" finished-at="2022-08-01T05:49:59 GMT-07:00" duration-ms="2341" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[devalam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[devalam@gamil.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="practice-project">...</a> is not clickable at point (849, 200). Other element would receive the click: <div class="preloader" style="opacity: 0.891195;">...</div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-B35LNQE', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f141e581e0ed002d04dd57887efdfd, clickElement {id=0d4b261c-f41a-43e1-9981-8edb950bd567}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Naveen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53734}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53734/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (44f141e581e0ed002d04dd57887efdfd)] -> css selector: a[href='practice-project']]
+Session ID: 44f141e581e0ed002d04dd57887efdfd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="practice-project">...</a> is not clickable at point (849, 200). Other element would receive the click: <div class="preloader" style="opacity: 0.891195;">...</div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-B35LNQE', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44f141e581e0ed002d04dd57887efdfd, clickElement {id=0d4b261c-f41a-43e1-9981-8edb950bd567}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Naveen\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53734}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53734/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (44f141e581e0ed002d04dd57887efdfd)] -> css selector: a[href='practice-project']]
+Session ID: 44f141e581e0ed002d04dd57887efdfd
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at Testing.SeleniumTesting.HomePage.basePageNavigation(HomePage.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testing.SeleniumTesting.HomePage@17f460bb]" started-at="2022-08-01T05:49:59 GMT-07:00" name="tearDown" finished-at="2022-08-01T05:49:59 GMT-07:00" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testing.SeleniumTesting.HomePage -->
+    </test> <!-- HomepageTest -->
+  </suite> <!-- Suite -->
+</testng-results>

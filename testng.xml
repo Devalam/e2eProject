@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" >
+	
+	<listeners>
+		<listener class-name="Testing.SeleniumTesting.Listeners">
+			
+		</listener>
+	</listeners>
+
+	
+	<test thread-count="5" name="validationTest">
+		<classes>
+			<class name="Testing.SeleniumTesting.AssertValidation"/>
+		</classes>
+	</test>
+	<test thread-count="5" name="HomepageTest">
+		<classes>
+			<class name="Testing.SeleniumTesting.HomePage"/>
+		</classes>
+	</test>
+	<!-- Test -->
+	<test thread-count="5" name="ValidatetitleTest">
+		<classes>
+			<class name="Testing.SeleniumTesting.validatingTitle"/>
+		</classes>
+	</test>
+	
+</suite>
+
+<!-- Suite -->

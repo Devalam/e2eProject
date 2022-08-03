@@ -1,0 +1,6 @@
+pageObjectModel\LandingPage.class
+pageObjectModel\PracticePage.class
+resources\Base.class
+resources\extentReportNG.class
+Testing\SeleniumTesting\App.class
+pageObjectModel\LoginPage.class

@@ -1,0 +1,40 @@
+28:07:2022 - 23:17:18.418 DEBUG internal.PlatformDependent0 [main] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+28:07:2022 - 23:17:18.421 DEBUG internal.PlatformDependent [main] - sun.misc.Unsafe: available
+28:07:2022 - 23:17:18.422 DEBUG internal.PlatformDependent [main] - maxDirectMemory: 1054867456 bytes (maybe)
+28:07:2022 - 23:17:18.422 DEBUG internal.PlatformDependent [main] - -Dio.netty.tmpdir: C:\Users\Naveen\AppData\Local\Temp (java.io.tmpdir)
+28:07:2022 - 23:17:18.423 DEBUG internal.PlatformDependent [main] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+28:07:2022 - 23:17:18.424 DEBUG internal.PlatformDependent [main] - Platform: Windows
+28:07:2022 - 23:17:18.425 DEBUG internal.PlatformDependent [main] - -Dio.netty.maxDirectMemory: -1 bytes
+28:07:2022 - 23:17:18.426 DEBUG internal.PlatformDependent [main] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+28:07:2022 - 23:17:18.428 DEBUG internal.CleanerJava9 [main] - java.nio.ByteBuffer.cleaner(): available
+28:07:2022 - 23:17:18.428 DEBUG internal.PlatformDependent [main] - -Dio.netty.noPreferDirect: false
+28:07:2022 - 23:17:18.439 DEBUG internal.PlatformDependent [main] - org.jctools-core.MpscChunkedArrayQueue: available
+28:07:2022 - 23:17:18.462 DEBUG internal.InternalThreadLocalMap [main] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+28:07:2022 - 23:17:18.462 DEBUG internal.InternalThreadLocalMap [main] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+28:07:2022 - 23:17:18.707 DEBUG ssl.JdkSslContext [main] - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+28:07:2022 - 23:17:18.707 DEBUG ssl.JdkSslContext [main] - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+28:07:2022 - 23:17:18.743 DEBUG channel.MultithreadEventLoopGroup [main] - -Dio.netty.eventLoopThreads: 8
+28:07:2022 - 23:17:18.755 DEBUG nio.NioEventLoop [main] - -Dio.netty.noKeySetOptimization: false
+28:07:2022 - 23:17:18.755 DEBUG nio.NioEventLoop [main] - -Dio.netty.selectorAutoRebuildThreshold: 512
+28:07:2022 - 23:17:18.769 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@338cc75f
+28:07:2022 - 23:17:18.771 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@49c8f6e8
+28:07:2022 - 23:17:18.773 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6b0615ae
+28:07:2022 - 23:17:18.777 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4e73b552
+28:07:2022 - 23:17:18.780 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@221dad51
+28:07:2022 - 23:17:18.783 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2cec704c
+28:07:2022 - 23:17:18.786 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@771cbb1a
+28:07:2022 - 23:17:18.789 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2416498e
+28:07:2022 - 23:17:18.815 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.numHeapArenas: 8
+28:07:2022 - 23:17:18.816 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.numDirectArenas: 8
+28:07:2022 - 23:17:18.816 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.pageSize: 8192
+28:07:2022 - 23:17:18.816 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.maxOrder: 9
+28:07:2022 - 23:17:18.816 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.chunkSize: 4194304
+28:07:2022 - 23:17:18.816 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.smallCacheSize: 256
+28:07:2022 - 23:17:18.817 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.normalCacheSize: 64
+28:07:2022 - 23:17:18.817 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+28:07:2022 - 23:17:18.817 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.cacheTrimInterval: 8192
+28:07:2022 - 23:17:18.817 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+28:07:2022 - 23:17:18.818 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.useCacheForAllThreads: false
+28:07:2022 - 23:17:18.818 DEBUG buffer.PooledByteBufAllocator [main] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+28:07:2022 - 23:17:18.830 DEBUG buffer.ByteBufUtil [main] - -Dio.netty.allocator.type: pooled
+28:07:2022 - 23:17:18.830 DEBUG buffer.ByteBufUtil [main] - -Dio.netty.threadLocalDirectBufferSize: 0

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-01T21:53:28 GMT-07:00" name="Suite" finished-at="2022-08-01T21:55:08 GMT-07:00" duration-ms="100008">
+    <groups>
+    </groups>
+    <test started-at="2022-08-01T21:53:28 GMT-07:00" name="ValidatetitleTest" finished-at="2022-08-01T21:54:50 GMT-07:00" duration-ms="82664">
+      <class name="Testing.SeleniumTesting.validatingTitle">
+        <test-method is-config="true" signature="intialization()[pri:0, instance:Testing.SeleniumTesting.validatingTitle@24a1c17f]" started-at="2022-08-01T21:53:28 GMT-07:00" name="intialization" finished-at="2022-08-01T21:54:47 GMT-07:00" duration-ms="79253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method signature="logoValidation()[pri:0, instance:Testing.SeleniumTesting.validatingTitle@24a1c17f]" started-at="2022-08-01T21:54:47 GMT-07:00" name="logoValidation" finished-at="2022-08-01T21:54:47 GMT-07:00" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoValidation -->
+        <test-method signature="titleValidation()[pri:0, instance:Testing.SeleniumTesting.validatingTitle@24a1c17f]" started-at="2022-08-01T21:54:48 GMT-07:00" name="titleValidation" finished-at="2022-08-01T21:54:48 GMT-07:00" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testing.SeleniumTesting.validatingTitle@24a1c17f]" started-at="2022-08-01T21:54:48 GMT-07:00" name="tearDown" finished-at="2022-08-01T21:54:50 GMT-07:00" duration-ms="2225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testing.SeleniumTesting.validatingTitle -->
+    </test> <!-- ValidatetitleTest -->
+    <test started-at="2022-08-01T21:53:28 GMT-07:00" name="validationTest" finished-at="2022-08-01T21:55:02 GMT-07:00" duration-ms="94225">
+      <class name="Testing.SeleniumTesting.AssertValidation">
+        <test-method is-config="true" signature="intialization()[pri:0, instance:Testing.SeleniumTesting.AssertValidation@7db534f2]" started-at="2022-08-01T21:53:28 GMT-07:00" name="intialization" finished-at="2022-08-01T21:54:53 GMT-07:00" duration-ms="85518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Testing.SeleniumTesting.AssertValidation@7db534f2]" started-at="2022-08-01T21:54:53 GMT-07:00" name="basePageNavigation" finished-at="2022-08-01T21:54:58 GMT-07:00" duration-ms="4669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testing.SeleniumTesting.AssertValidation@7db534f2]" started-at="2022-08-01T21:54:58 GMT-07:00" name="tearDown" finished-at="2022-08-01T21:55:02 GMT-07:00" duration-ms="3996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testing.SeleniumTesting.AssertValidation -->
+    </test> <!-- validationTest -->
+    <test started-at="2022-08-01T21:53:28 GMT-07:00" name="HomepageTest" finished-at="2022-08-01T21:55:08 GMT-07:00" duration-ms="100008">
+      <class name="Testing.SeleniumTesting.HomePage">
+        <test-method is-config="true" signature="intialization()[pri:0, instance:Testing.SeleniumTesting.HomePage@78461bc4]" started-at="2022-08-01T21:53:28 GMT-07:00" name="intialization" finished-at="2022-08-01T21:53:56 GMT-07:00" duration-ms="28204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Testing.SeleniumTesting.HomePage@78461bc4]" started-at="2022-08-01T21:53:56 GMT-07:00" name="basePageNavigation" data-provider="getData" finished-at="2022-08-01T21:54:59 GMT-07:00" duration-ms="63448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Naveen kumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[naveen@gamil.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Testing.SeleniumTesting.HomePage@78461bc4]" started-at="2022-08-01T21:54:59 GMT-07:00" name="basePageNavigation" data-provider="getData" finished-at="2022-08-01T21:55:06 GMT-07:00" duration-ms="6081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[devalam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[devalam@gamil.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testing.SeleniumTesting.HomePage@78461bc4]" started-at="2022-08-01T21:55:06 GMT-07:00" name="tearDown" finished-at="2022-08-01T21:55:08 GMT-07:00" duration-ms="2167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testing.SeleniumTesting.HomePage -->
+    </test> <!-- HomepageTest -->
+  </suite> <!-- Suite -->
+</testng-results>
