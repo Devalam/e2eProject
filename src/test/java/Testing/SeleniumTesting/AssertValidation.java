@@ -25,6 +25,7 @@ public class AssertValidation extends Base {
 		log.info("Broswer invoking");
 		driver.get(prop.getProperty("url"));
 		log.info("landed on the required page");
+		log.info("git demo************");
 
 	}
 
